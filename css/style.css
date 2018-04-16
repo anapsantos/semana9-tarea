@@ -1,0 +1,96 @@
+header{
+	border: 0px solid red;
+	height: 150px;
+	text-align: center;
+	padding-top: 30px;
+	background-color: pink;
+}
+
+header img {
+	margin-top: 0px;
+
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+nav ul li{
+   padding: 10px;
+   margin: 4px 4px;
+   background-color: darkgrey;
+   font-family: helvetica;
+
+}
+
+a:link {
+    color: grey;
+}
+
+/* visited link */
+a:visited {
+    color: pink;
+}
+
+/* mouse over link */
+a:hover {
+   color: #fff27b;
+}
+
+/* selected link */
+a:active {
+    color: #fff27b;
+}
+
+nav ul li a{
+   text-decoration: none;
+
+}
+
+h2 {
+	padding: 2px;
+	font-size: 30px;
+}
+
+p{
+	font-size: 10px;
+}
+div .text{
+	font-family: helvetica;
+}
+
+h1{
+	font-size: 50px;
+}
+
+div .link {
+	font-size: 50px;
+	text-decoration: none;
+	font-family: "helvetica";
+}
+
+.wrapper , .row{
+	display:flex;
+	background-color: pink;
+}
+
+.wrapper div, .row div{
+	flex: 1;
+	border: 0px solid red;
+	padding: 5px 2px;
+	margin: 5px;
+	text-align: center;
+	background-color: white;
+
+
+}
+
+.wrapper div img, .row div img {
+	
+	width: 250px;
+}
+
+.row
